@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+h1{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    
+}
+ 
+.navbar{
+    background-color: saddlebrown;
+    padding: 14px; 
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 40pxpx;
+    word-spacing: 2px ;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(151, 117, 55);
+}
+li{
+
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+ color: blanchedalmond;
+ font-size: 18px;
+font-weight: bold;
+margin-right:25px ;
+justify-content: center;
+}
+.histo {
+    color: saddlebrown;
+    background-color: whitesmoke;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+}
+h2 {
+    color:rosybrown;
+    padding:0 ;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 140px;
+    text-align: center;
+}
+span{
+    color:rgb(229, 209, 34);
+
+}
+h3{
+    background-color:khaki;
+}
+#home {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTidVIQ2lyRkyqiqP7u4k5GS-cg9NjW00XmkA&s);
+    padding: 42px;
+    margin: 40pxpx;
+}
+.description{
+    color:white
+}
+.button-view{
+  color:black;
+  background-color: saddlebrown;
+  padding: 12px;
+  margin: 22px;
+  cursor: pointer;
+}
+div li{
+    font-size:20pxpx;
+    margin: 12px;
+    padding: 10px;
+    font-size: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+p{
+         color: black;
+         font: 1em sans-serif;
+         margin-bottom: 12px;
+         margin-top: 12px;
+         margin-left: 30%;
+         margin-right: 30px;}
